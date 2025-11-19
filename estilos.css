@@ -1,0 +1,215 @@
+/* ============================================================
+   ESTILOS GENERALES DEL SITIO
+   Estos afectan el fondo, tipografía y estructura principal.
+=============================================================== */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0; /* Color crema estilo recetario */
+    font-family: "Segoe UI", Arial, sans-serif; /* Fuente legible y moderna */
+    color: #4a332d; /* Color café suave para texto */
+    line-height: 1.6; /* Mejor lectura */
+}
+
+/* Contenedor general para centrar y limitar el ancho */
+div {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ============================================================
+   HEADER
+   Aquí se estiliza el título, bienvenida y botón de descarga.
+=============================================================== */
+header {
+    text-align: center; /* Centrar texto */
+    background: #ffe1cc; /* Fondo pastel */
+    padding: 30px 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    margin-bottom: 20px;
+}
+
+/* Título principal */
+header h1 {
+    font-size: 2.8rem;
+    color: #c5633b; /* Café-naranja */
+    margin-bottom: 10px;
+}
+
+/* Párrafo descriptivo */
+header p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Botón de descarga */
+header a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background: #c5633b; /* Color del botón */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Efecto hover en el botón */
+header a:hover {
+    background: #a44e2d;
+}
+
+/* ============================================================
+   MENÚ DE NAVEGACIÓN
+=============================================================== */
+nav {
+    margin: 20px 0;
+}
+
+/* Lista del menú */
+nav ul {
+    display: flex; /* Alinear horizontal */
+    justify-content: center;
+    list-style: none; /* Quitar viñetas */
+    padding: 0;
+}
+
+/* Separación entre opciones */
+nav li {
+    margin: 0 15px;
+}
+
+/* Estilos de los links */
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #b0492f;
+    font-size: 1.1rem;
+}
+
+/* Efecto hover del menú */
+nav a:hover {
+    color: #7e2f1e;
+}
+
+/* ============================================================
+   ARTÍCULOS / RECETAS
+   Tarjetas blancas con sombras suaves.
+=============================================================== */
+article {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1); /* Sombra */
+    margin-bottom: 25px;
+}
+
+/* Subtítulos de recetas */
+article h2 {
+    color: #b0492f;
+    margin-bottom: 10px;
+}
+
+/* Encabezados dentro del artículo */
+article h3 {
+    color: #7e2f1e;
+    margin-top: 20px;
+}
+
+/* ============================================================
+   ASIDE (CONSEJO)
+=============================================================== */
+aside {
+    background-color: #ffe9dd;
+    padding: 15px;
+    border-left: 5px solid #d27754; /* Barra decorativa */
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* ============================================================
+   IMÁGENES Y FIGURES
+=============================================================== */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Imagenes redondeadas */
+figure img {
+    width: 320px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Texto debajo de imagen */
+figcaption {
+    font-size: 0.9rem;
+    color: #7a5448;
+    margin-top: 6px;
+}
+
+/* ============================================================
+   TABLAS
+   Diseño limpio, pastel y agradable.
+=============================================================== */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Unir bordes */
+    background: sl #fff3ec;
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para aplicar redondeado */
+    margin-top: 20px;
+}
+
+/* Título de tabla */
+table caption h3 {
+    color: #b0492f;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Encabezado */
+thead {
+    background-color: #ffd4c2;
+}
+
+/* Celdas */
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Colorear filas pares */
+tr:nth-child(even) {
+    background-color: #fff3ec;
+}
+
+/* Efecto hover */
+tr:hover {
+    background-color: #ffe7dd;
+}
+
+/* ============================================================
+   FOOTER
+=============================================================== */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: #ffd4c2; /* Fondo suave */
+    border-radius: 10px;
+}
+
+/* Link del footer */
+footer a {
+    color: #6f2d1c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover */
+footer a:hover {
+    text-decoration: underline;
+}
